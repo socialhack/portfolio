@@ -1,0 +1,203 @@
+  body {
+    #background-color: rgb(23,23,23);
+    background-color: rgb(12,12,12);
+    color: rgb(150,150,150);
+    font-family: Futura, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: 10px;
+    #background-position: 99% 15px;
+    #background-repeat: no-repeat;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+  }
+ 
+  h1,h2 {
+    font-size: 250%;
+    color: rgb(250,250,250);
+    font-weight: bold;
+    clear: right;
+    text-align: right;
+    width: 23$;
+  }
+  h1 {
+    display: none;
+  }
+  h2 {
+    margin: 0;
+    padding-right: 22px;
+  }
+
+  a {
+    #font-weight: bold;
+    #color: inherit;
+    line-height: 0em;
+  }
+  ul li a {
+    display: block;
+
+    #text-transform: uppercase;
+    
+    #color: rgb(150,150,200);
+    #border: none;
+    #text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-right: 16px;
+    #border-left: none;
+    #border-right: none;
+    border: none;
+  }
+  ul.main {
+    margin-left: auto;
+  }
+
+  ul.side {
+    #padding-right: 16px;
+    #width:50%;
+    #background: transparent;
+  }
+  ul.side li {
+    #float: none;
+    #display: inline;
+    #display: block;
+  }
+
+
+  ul:hover {
+    #background-color: rgb(65,65,65);
+    border-color: rgb(62,62,62);
+  }
+
+
+  ul li {
+    cursor: pointer;
+    display: block;
+    float: right;
+    margin: 0px 5px;
+    border: 5px solid transparent;
+    position: relative;
+  }
+
+  ul li:hover {
+    border-color: rgb(200,200,200);
+  }
+
+  ul li .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    opacity: 0.9;
+    height: 50%;
+    width: 100%;
+    margin-right: 1.5em;
+    text-align: center;
+    padding-top: 1.5em;
+    font-size: 1em;
+    background-color: rgb(60,60,60);
+    color: rgb(240, 240, 240);
+    visibility: hidden;
+    cursor: pointer;
+  }
+
+
+  ul li:hover .overlay {
+    visibility: visible;
+  }
+
+  div.round-block {
+    display: block;
+    #padding-bottom: 13px;
+    padding: 12px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    z-index: 9999;
+    margin-left: auto;
+    margin-bottom: 1em;
+    width: 75%;
+  }
+  div.round-block.side {
+    width: auto;
+    position: absolute;
+    margin-top: 33.33%;
+  }
+  div.round-block:hover {
+    background-color: rgb(23,23,23);
+    border-color: rgb(25,25,25); 
+    #border-color: rgb(42,42,42);
+    #background-color: rgb(35,35,35); 
+  }
+  div.finalizer {
+    clear:both;
+  }
+
+  footer {
+      font-size: 14px;
+      margin-top: 42px;
+      position: relative;
+      bottom: 12px;
+      left: 12px;
+      text-align: center;
+  }
+  footer * {
+      color: rgb(100,100,100);
+      #line-height: 1;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+  }
+
+  .infobox {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width: 200px;
+  }
+
+  .infobox a {
+    margin: 9px 3px;
+    border: none;
+  }
+  .infobox a img {
+    width: 40px;
+    height: 40px;
+  }
+
+/*
+
+  ul li:hover .actual {
+    visibility: visible;
+  }
+  ul li div.role {
+    #border-bottom: 3px solid rgb(150,150,150);
+  }
+
+
+  ul li.clear {
+    float: none;
+    clear: both;
+    height: 0;
+    width: 0;
+    margin: 0; padding: 0; border: none;
+  }
+
+  ul li .actual {
+    visibility: hidden;
+    width: 42.5%;
+    max-height: 100%;
+    padding-left: 10px;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 100;
+    overflow: hidden;
+  }
+  */
