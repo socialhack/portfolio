@@ -139,21 +139,6 @@ margin-left:-3em;
 	color: rgb(233,233,233);	
 }
 
-.mailinfo {
-	position: absolute;
-	top: 7em;
-	border: 1px;
-	color: rgb(233,233,233);
-}
-.mailinfo a {
-	color: rgb(233,233,233);
-	
-}
-.mailinfo a:visited {
-	color: rgb(233,233,233);
-	
-}
-
 .infobox {
     position: absolute;
 	background-color: #fff;
