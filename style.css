@@ -19,6 +19,11 @@ h2 {
     margin: 0 0 0.2em 0;
 }
 
+.single {
+	position: absolute;
+	top: 5%;
+}
+
 #main ul {  
     list-style-type: none;
 	padding-top:8em;
@@ -32,9 +37,6 @@ h2 {
     margin: 0;
     padding: 0;
 }
-
-
-
 
 #main ul li ul li {
     display: inline-block;
@@ -63,6 +65,7 @@ h2 {
 	display: inline-block;
 }
 
+.single img,
 #main ul li ul li a img {
 	display:block;
 	border: none;
@@ -73,6 +76,7 @@ h2 {
 	border-radius: 0.7em;
 }
 
+.single img:hover,
 #main ul li ul li:hover a img {
 	-webkit-transition: height 1s ease-out, width 1s ease-out, margin 1s ease-out;
 	-moz-transition: height 1s ease-out, width 1s ease-out, margin 1s ease-out;
@@ -120,14 +124,35 @@ h2 {
 	color: #c0ff00;
 }
   
-  #main .round-block.side {
-	float:left;
-	border-radius: 0 1em 1em 0;
-    padding: 1.2em 1.7em 1.4em 1.4em;
-	text-align:left;
-	margin-left:-3em;
-  }
+#main .round-block.side {
+float:left;
+border-radius: 0 1em 1em 0;
+padding: 1.2em 1.7em 1.4em 1.4em;
+text-align:left;
+margin-left:-3em;
+}
 
+#header {
+	position: absolute;
+	left: 82%;
+	font-size: 1.2em;
+	color: rgb(233,233,233);	
+}
+
+.mailinfo {
+	position: absolute;
+	top: 7em;
+	border: 1px;
+	color: rgb(233,233,233);
+}
+.mailinfo a {
+	color: rgb(233,233,233);
+	
+}
+.mailinfo a:visited {
+	color: rgb(233,233,233);
+	
+}
 
 .infobox {
     position: absolute;
@@ -149,7 +174,6 @@ h2 {
 	padding: 1em 0.1em;
 	display:inline-block;
 }
-
 
 
 .infobox a img {
