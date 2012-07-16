@@ -13,10 +13,29 @@ h1,h2 {
     font-weight: bold;
     text-align: right;
 	text-transform: uppercase;
-  }
+}
 
 h2 {
     margin: 0 0 0.2em 0;
+}
+
+#cv-main {
+	width: 45%;
+	margin: 1% auto 1% auto;
+	text-align: justify;
+	color: rgb(233,233,233);
+	background-color: rgb(25,25,25);
+	padding: 17px;
+	border-radius:1em;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(100,100,100);
+}
+
+#cv-main a:hover, #header a:hover, a:hover {
+	color: #c0ff00;
 }
 
 .single {
@@ -103,8 +122,12 @@ h2 {
   }
 
 
-  #main ul li ul li:hover .overlay {
+ #main ul li ul li:hover .overlay {
 	display:block;
+}
+
+#main ul li a {
+	text-decoration: none;
 }
 
   #main div.round-block {
@@ -136,7 +159,11 @@ margin-left:-3em;
 	position: absolute;
 	left: 82%;
 	font-size: 1.2em;
-	color: rgb(233,233,233);	
+	color: rgb(233,233,233);
+	text-align: right;
+}
+#header a {
+	color: rgb(233,233,233);
 }
 
 .infobox {
@@ -158,15 +185,14 @@ margin-left:-3em;
 .infobox ul li a {
 	padding: 1em 0.1em;
 	display:inline-block;
+	text-decoration: none;
 }
-
 
 .infobox a img {
     width: 40px;
     height: 40px;
 	border:0;
 }
-
 
 footer {
       font-size: 14px;
