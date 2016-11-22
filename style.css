@@ -222,3 +222,13 @@ footer * {
       padding: 0;
       text-decoration: none;
   }
+
+#lecturelist {
+	font-size: 1.5em;
+}
+
+#lecturelist td {
+	padding: 0.6em;
+	border-bottom: 1px solid rgb(150,150,150) !important;
+	color: rgb(233,233,233);
+}
